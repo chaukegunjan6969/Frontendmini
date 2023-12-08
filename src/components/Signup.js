@@ -6,8 +6,8 @@ function Signup({SetLoggedin}) {
   return (
     <Template
      title="welcomde Back"
-     desc1="Build skills for today, tommorow, and beyound"
-     desc2="Education to future-proof your career"
+    //  desc1="Build skills for today, tommorow, and beyound"
+    //  desc2="Education to future-proof your career"
      image={Signupimg}
      Formtype="signup"
      SetLoggedin={SetLoggedin}

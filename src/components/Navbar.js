@@ -26,7 +26,7 @@ function Navbar(props) {
             <Link to="/Register">Register</Link>
           </li>
           <li>
-            <Link to="/">Contact</Link>
+            <Link to="/status">Status</Link>
           </li>
         </ul>
       </nav>

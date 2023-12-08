@@ -8,7 +8,8 @@ import Dashboard from "./components/Dashboard";
 import { useState } from "react";
 import Properties from "./components/Properties";
 import Footer from "./components/footer";
-import RegisterProp from "./components/RegisterProp"
+import RegisterProp from "./components/RegisterProp";
+import SimpleStorage from "./components/ContractInteraction";
 
 function App() {
   const [Loggedin, SetLoggedin] = useState(false);
@@ -47,6 +48,11 @@ function App() {
           path="/Register"
           element = {<RegisterProp></RegisterProp>}
           ></Route>
+          <Route
+           path="/status"
+           element ={<SimpleStorage></SimpleStorage>}
+          >
+          </Route>
         </Routes>
 
         <Footer></Footer>
